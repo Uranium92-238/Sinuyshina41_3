@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="715b3b3a51694d3eba25cd41d7bd4846" Name="Diagram1">
+        <EntityTypeShape EntityType="Sinuyshina41Model.Categori" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sinuyshina41Model.Manufacturer" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sinuyshina41Model.Order" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sinuyshina41Model.OrderProduct" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sinuyshina41Model.PickupPoint" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sinuyshina41Model.Product" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sinuyshina41Model.Role" Width="1.5" PointX="1.5" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sinuyshina41Model.Supplier" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sinuyshina41Model.User" Width="1.5" PointX="0.75" PointY="12" IsExpanded="true" />
+        <AssociationConnector Association="Sinuyshina41Model.FK_Product_Categori" ManuallyRouted="false" />
+        <AssociationConnector Association="Sinuyshina41Model.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="Sinuyshina41Model.FK_Order_PickupPoint" ManuallyRouted="false" />
+        <AssociationConnector Association="Sinuyshina41Model.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Sinuyshina41Model.FK_OrderProduct_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="Sinuyshina41Model.FK__OrderProd__Produ__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="Sinuyshina41Model.FK_Product_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="Sinuyshina41Model.FK__User__UserRole__267ABA7A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
