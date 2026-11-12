@@ -20,6 +20,7 @@ namespace Sinuyshina41_3
     /// </summary>
     public partial class AuthPage : Page
     {
+
         public AuthPage()
         {
             InitializeComponent();
@@ -119,6 +120,16 @@ namespace Sinuyshina41_3
                 TBoxCaptcha.Focus();
                
             }
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            // Очищаем все поля при каждом появлении страницы (в том числе при возврате)
+            LoginTB.Text = "";
+            PassTB.Text = "";
+            TBoxCaptcha.Text = "";
+            CaptchaPanel.Visibility = Visibility.Collapsed;
+            TBoxCaptcha.Visibility = Visibility.Collapsed;
         }
     }
 }

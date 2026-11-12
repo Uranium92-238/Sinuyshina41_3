@@ -42,7 +42,9 @@ namespace Sinuyshina41_3
             else
             {
                 X.Visibility = Visibility.Collapsed;
-                Y.Visibility = Visibility.Collapsed;
+                FIOTB.Text = "вы зашли как гость";
+                //Y.Visibility = Visibility.Collapsed;
+                RoleTB.Text = "Гость";
             }
 
 
